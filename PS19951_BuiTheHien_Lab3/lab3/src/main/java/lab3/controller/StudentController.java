@@ -23,6 +23,7 @@ public class StudentController {
 	@RequestMapping("student/form")
 	public String index(Model model) {
 		model.addAttribute("student", new Student());
+		model.addAttribute("message", "Hello world");
 		return "form";
 	}
 
