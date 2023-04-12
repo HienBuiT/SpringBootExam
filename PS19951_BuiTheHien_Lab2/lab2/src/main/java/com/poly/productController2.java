@@ -1,8 +1,5 @@
 package com.poly;
 
-
-
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -25,6 +22,7 @@ public class productController2 {
 		p.setName("iphone");
 		p.setPrice(50000.0);
 		model.addAttribute("product1",p);
+		model.addAttribute("message", "Hello World");
 		return "product/form";
 	}
 	@PostMapping("/product2/save")

@@ -15,6 +15,7 @@
 		<input name="price" value="${productEdit.price}" />
 		<button>save</button>
 	</form>
+	${message}
 	<ul>
 		<li>${product1.name}</li>
 		<li>${product1.price}</li>
